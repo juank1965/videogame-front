@@ -1,0 +1,141 @@
+.form {
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.info {
+  background: gray;
+  padding: 10px;
+  margin: 5px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.box {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  font-size: medium;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.bloque {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.boton {
+  height: 40px;
+  margin: 18px;
+  background: #898be8;
+  color: white;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.back {
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  margin: 18px;
+  background: #f64d33;
+  color: white;
+  cursor: pointer;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.cerrar {
+  display: flex;
+  background: transparent;
+  color: red;
+  border-block-style: none;
+  cursor: pointer;
+}
+
+.input2 {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.texto {
+  height: 100px;
+  padding: 10px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.rating {
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cuadricula {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content;
+  justify-items: flex-start;
+  align-content: stretch;
+  font-size: 18px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  justify-content: center;
+  row-gap: 1.3rem;
+  column-gap: 1.3rem;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background: black;
+}

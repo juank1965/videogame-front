@@ -1,0 +1,20 @@
+.header {
+  padding: 6em;
+  background-image: url("../../assets/images/banners/3Z_2104.w026.n002.302B.p1.302.jpg");
+  background-size: cover;
+}
+
+.boton {
+  font-size: 1.5rem;
+  border-block: inherit;
+  border-radius: 18px;
+  padding: 12px;
+  background: rgb(0, 0, 1);
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+  color: #ffff;
+}

@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.form {
+  padding-right: 15px;
+}
+
+.input {
+  width: 600px;
+  font-size: 25px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  border: 1px solid #ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.titulo {
+  font-size: 3em;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.boton {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
