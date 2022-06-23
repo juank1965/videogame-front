@@ -65,9 +65,15 @@ const ContainerGames = () => {
     <div>
       <div className={style.pie}>
         <div className={style.paginado}>
-          <button className={style.boton} onClick={handlerChangePrevPage}>
-            Prev
-          </button>
+          {pActual !== 1 ? (
+            <button className={style.boton} onClick={handlerChangePrevPage}>
+              Prev
+            </button>
+          ) : (
+            <button className={style.boton1} disabled>
+              Prev
+            </button>
+          )}
           <div>
             {paginas.map((p) => (
               <button
@@ -81,15 +87,16 @@ const ContainerGames = () => {
               </button>
             ))}
           </div>
-          <button className={style.boton} onClick={handlerChangeNextPage}>
-            Next
-          </button>
+          {pActual !== pfinal ? (
+            <button className={style.boton} onClick={handlerChangeNextPage}>
+              Next
+            </button>
+          ) : (
+            <button className={style.boton1} disabled>
+              Next
+            </button>
+          )}
         </div>
-        {/*
-        <p className={style.paginas}>
-          | Page {pActual} de {pfinal} |
-        </p>
-            */}
       </div>
       <div className={style.container}>
         {elements &&
@@ -99,9 +106,15 @@ const ContainerGames = () => {
       </div>
       <div className={style.pie}>
         <div className={style.paginado}>
-          <button className={style.boton} onClick={handlerChangePrevPage}>
-            Prev
-          </button>
+          {pActual !== 1 ? (
+            <button className={style.boton} onClick={handlerChangePrevPage}>
+              Prev
+            </button>
+          ) : (
+            <button className={style.boton1} disabled>
+              Prev
+            </button>
+          )}
           <div>
             {paginas.map((p) => (
               <button
@@ -114,15 +127,16 @@ const ContainerGames = () => {
               </button>
             ))}
           </div>
-          <button className={style.boton} onClick={handlerChangeNextPage}>
-            Next
-          </button>
+          {pActual !== pfinal ? (
+            <button className={style.boton} onClick={handlerChangeNextPage}>
+              Next
+            </button>
+          ) : (
+            <button className={style.boton1} disabled>
+              Next
+            </button>
+          )}
         </div>
-        {/*
-        <p className={style.paginas}>
-          | Page {pActual} de {pfinal} |
-        </p>
-            */}
       </div>
     </div>
   );

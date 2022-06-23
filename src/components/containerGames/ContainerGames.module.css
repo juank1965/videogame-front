@@ -32,6 +32,13 @@
   color: #00a0c8;
 }
 
+.boton1 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
 .paginado {
   display: flex;
 }
